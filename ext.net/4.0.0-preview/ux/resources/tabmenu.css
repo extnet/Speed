@@ -1,0 +1,48 @@
+﻿.x-tab-strip-withmenu .x-tab-wrap
+{
+    padding-right: 14px;
+}
+
+.x-tab-strip-withmenu span.x-tab-strip-menu
+{
+    opacity: 0.8;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);    
+    background-repeat: no-repeat;
+    display: block;
+    width: 11px;
+    height: 11px;
+    position: absolute !important;
+    top: 2px;
+    right: 3px;        
+    font-size: 0;
+    line-height: 0;
+    text-indent: -999px;
+    background-image: url(images/tabmenu/tab-menu.gif);
+}
+
+.x-ie8 .x-tab-strip-withmenu span.x-tab-strip-menu {
+    top: 4px;
+}
+
+.x-theme-gray .x-tab-strip-withmenu span.x-tab-strip-menu
+{
+    background-image: url(images/tabmenu/gray-tab-menu.gif);
+}
+
+.x-tab-closable span.x-tab-strip-menu
+{
+    right: 15px;
+}
+
+.x-ie8 .x-tab-closable span.x-tab-strip-menu 
+{
+    right: 17px;
+}
+
+span.x-tab-strip-menu:hover
+{
+   opacity: 1;
+   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);    
+}

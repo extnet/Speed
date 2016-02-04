@@ -1,0 +1,33 @@
+﻿.row-cmp-cell-ct,
+.row-cmp-cell .x-grid-cell-inner {
+	padding:0px;
+}
+
+.x-grid .row-cmp-cell-ct TABLE, 
+.x-grid .row-cmp-cell-ct TABLE.x-btn {
+    table-layout:auto;
+}
+
+.x-grid .row-cmp-cell-ct td {
+	border-left:none !important;
+	border-right:none !important;
+	vertical-align:middle !important;
+}
+
+.x-grid .row-cmp-placeholder {
+    padding: 3px 6px;
+}
+
+.x-grid-componentcolumn .x-grid-cell {
+    vertical-align: middle;
+}
+
+.x-grid-componentcolumn .x-grid-cell .x-grid-cell-inner {
+   padding-bottom:2px;
+}
+
+.x-grid-componentcolumn .cell-imagecommand-cell .x-grid-cell-inner,
+.x-grid-componentcolumn .row-cmd-cell .x-grid-cell-inner,
+.x-grid-componentcolumn .row-cmp-cell .x-grid-cell-inner {
+   padding-bottom:0px;
+}

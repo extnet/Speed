@@ -1,0 +1,89 @@
+﻿.x-loading-indicator {
+    font-size: 11px;
+    background-image: url(../images/loading.gif);
+}
+
+.x-field-indicator {
+    position:absolute;
+    display:block;
+    top: 0px;
+    left: 2px;
+    height: 18px;        
+    padding-top: 4px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 3px;    
+    white-space: nowrap;
+}
+
+.x-textfield-icon {    
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    width: 16px;
+    height: 16px;
+    margin-left: 1px;
+    top: 3px;
+    left: 2px;
+}
+
+.x-textfield-icon-input, textarea.x-textfield-icon-input {
+    padding-left: 20px;
+}
+
+.x-rtl .x-textfield-icon {    
+    margin-left: 0px;
+    margin-right: 1px;
+    left: 0px;
+    right: 2px;
+}
+.x-rtl .x-textfield-icon-input, .x-rtl textarea.x-textfield-icon-input {
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.x-field-note {
+    font-size: 12px;
+    color: gray;    
+}
+
+.clear-right input.x-form-text {
+    border-right: 0px !important;
+}
+
+.x-clear-button {
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/clear.gif);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    -moz-user-focus: ignore;             
+    cursor: pointer;
+    position: absolute;
+    margin-top: 3px;
+    margin-right: 2px;
+    overflow:  hidden;
+}
+
+.x-rtl .x-clear-button {
+    margin-right: 0px;
+    margin-left: 2px;
+}
+
+input.x-clear-field::-ms-clear,
+input.x-showpassword-field::-ms-reveal {
+    display: none;
+    width : 0;
+    height: 0;
+}
+
+.x-form-trigger-over22 {
+    background-position: -22px center;
+}
+
+.x-form-trigger-click22 {
+    background-position: -44px center;
+}
+
+.x-form-trigger-focus22 {
+    background-position: -66px center;
+}
