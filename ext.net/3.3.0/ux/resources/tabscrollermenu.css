@@ -1,0 +1,19 @@
+.x-tab-tabmenu-right {
+    background: transparent url('images/tabscrollermenu/tab-scroller-menu.gif') no-repeat 0 0;
+    height: 23px;
+    width: 18px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    zoom: 1;
+    z-index: 6;
+}
+
+.x-tab-tabmenu-over {
+    background-position: -18px 0;
+}
+
+.x-tab-tabmenu-scroller-right {
+    right: 18px;
+}
