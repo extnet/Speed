@@ -1,0 +1,8 @@
+﻿.x-grid-filters-filtered-column .x-column-header-inner {
+    background: transparent url(../images/grid/header_bg.png) no-repeat !important;
+    padding-left: 22px;
+}
+
+.x-grid-filters-filtered-column.x-column-header-align-center .x-column-header-inner {
+    padding-right: 22px;
+}

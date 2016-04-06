@@ -1,0 +1,81 @@
+﻿.x-spotlight {
+    background-color: #ccc;
+    z-index: 8999;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -moz-opacity: 0.5;
+    opacity: .50;
+    filter: alpha(opacity=50);
+    width: 0;
+    height: 0;
+    zoom: 1;
+}
+
+.x-fieldset, .x-fieldset .x-fieldset-body, .x-ie .x-fieldset .x-fieldset-body {
+    padding-top: 0px;
+}
+
+.x-grid-row-expander {
+  background-position : 0 0px;
+}
+
+.x-notification .x-window-body {
+    padding: 3px;
+    text-align: center;
+}
+
+.x-vmarker-xfieldlabel {
+    border: white; 
+    background-color: #00f; 
+    color: white;
+    padding: 2px;
+}
+
+.x-vmarker-yfieldlabel {
+    border: white;             
+    color: white;
+    padding: 2px 4px;
+}
+
+.x-tab-strip {
+    position: relative;
+}
+
+.x-ie6 .x-tab-default .x-tab-close-btn,
+.x-ie7 .x-tab-default .x-tab-close-btn,
+.x-ie8 .x-tab-default .x-tab-close-btn {
+	top:4px;
+	right:4px;
+}
+
+/* GitHub issue #351 */
+.x-masked {
+    overflow: hidden !important;
+}
+
+/* GitHub issue #455 */
+.x-menu-item-icon {
+    background-size: 16px;
+    background-repeat: no-repeat;
+}
+
+/* GitHub issue #449 */
+.empty-loadmask div.x-mask-msg-text {
+    height: 23px;
+}
+
+.empty-eventmask div.x-mask-msg-text {
+    height: 13px;
+}
+/* End of GitHub issue #449 */
+
+/* The GitHub issue #531 */
+.x-btn-disabled {
+    cursor: default;
+}
+
+/* #878, required for DragTracker */
+.x-view-selector {
+    border: 1px dotted #3399BB;
+}

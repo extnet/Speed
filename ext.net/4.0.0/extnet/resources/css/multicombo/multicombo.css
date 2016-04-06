@@ -1,0 +1,31 @@
+﻿.x-multi-selected
+{
+    border: 1px dotted black;
+    cursor: pointer;
+}
+
+.x-mcombo-item-checked {
+    background-image: url(../images/grid/checked.gif);
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-left: 18px;
+}
+
+.x-mcombo-item-unchecked {
+    background-image: url(../images/grid/unchecked.gif);
+    background-position: 1px 1px;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    padding-left: 18px;
+}
+
+.x-theme-neptune .x-mcombo-item-checked {
+    background-image: url(../images/grid/neptune/checked.png);
+    background-position: 1px 3px;
+}
+
+.x-theme-neptune .x-mcombo-item-unchecked {
+    background-image: url(../images/grid/neptune/unchecked.png);
+    background-position: 1px 3px;
+}

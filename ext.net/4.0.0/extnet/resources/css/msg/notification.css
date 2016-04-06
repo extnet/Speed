@@ -1,0 +1,167 @@
+﻿.x-infopanel
+{
+    border:solid 1px #ccc;           
+    box-shadow: 0 0px 10px #ccc;
+    border-radius: 4px;
+    background: #f7f7f7;
+}        
+        
+.x-infopanel .x-infopanel-header
+{
+    background: none;
+    border: 0px;
+    box-shadow:none;
+    border-radius:0px;            
+    margin: 0;    
+    line-height: 16px;            
+    font-weight: bold;
+}
+
+.x-infopanel .x-infopanel-body
+{
+    border:none;
+    padding: 9px 8px;
+    overflow:hidden;
+    background: #f7f7f7;    
+}
+
+.x-infopanel-icon .x-infopanel-body
+{
+    padding-left: 24px;
+}
+
+.x-infopanel .x-infopanel-body-left
+{
+    text-align: left;
+}
+
+.x-infopanel .x-infopanel-body-right
+{
+    text-align: right;
+}
+
+.x-infopanel .x-infopanel-body-justify
+{
+    text-align: justify
+}
+
+.x-infopanel .x-infopanel-body-center
+{
+    text-align: center;
+}
+
+.x-theme-blue .x-infopanel
+{
+    background: rgb(237, 245, 255);
+    border:solid 1px #99bce8;           
+    box-shadow: 0 0px 10px #ccc;
+}
+
+.x-theme-blue .x-infopanel .x-infopanel-body
+{
+    background: rgb(237, 245, 255);            
+}
+
+.x-theme-neptune .x-infopanel
+{
+    background: rgb(223, 234, 242);
+    border:solid 1px #99bce8;           
+    box-shadow: 0 0px 10px #ccc;
+}
+
+.x-theme-neptune .x-infopanel-header .x-header-text
+{
+    color:black;
+}
+
+.x-theme-neptune .x-infopanel .x-infopanel-body
+{
+    background: rgb(223, 234, 242);
+    padding: 9px 10px;
+    color: black;
+}        
+
+.x-infopanel-primary
+{
+    border:solid 1px #2d6ca2;                       
+    background: #d9e8f5;
+}        
+        
+.x-infopanel-primary .x-infopanel-header .x-header-text
+{            
+    color: #2A5270;
+}       
+
+.x-infopanel-primary .x-infopanel-body
+{            
+    background: #d9e8f5;
+    color: #2A5270;
+}
+
+.x-infopanel-danger
+{
+    border:solid 1px #ebccd1;                       
+    background: #f2dede;
+}        
+        
+.x-infopanel-danger .x-infopanel-header .x-header-text
+{            
+    color: #a94442;
+}       
+
+.x-infopanel-danger .x-infopanel-body
+{            
+    background: #f2dede;
+    color: #a94442;
+}
+
+.x-infopanel-info
+{
+    border:solid 1px #bce8f1;                       
+    background: #d9edf7;
+}        
+        
+.x-infopanel-info .x-infopanel-header .x-header-text
+{            
+    color: #31708f;
+}       
+
+.x-infopanel-info .x-infopanel-body
+{            
+    background: #d9edf7;
+    color: #31708f;
+}
+
+.x-infopanel-success
+{
+    border:solid 1px #d6e9c6;                       
+    background: #dff0d8;
+}        
+        
+.x-infopanel-success .x-infopanel-header .x-header-text
+{            
+    color: #3c763d;
+}       
+
+.x-infopanel-success .x-infopanel-body
+{            
+    background: #dff0d8;
+    color: #3c763d;
+}
+
+.x-infopanel-warning
+{
+    border:solid 1px #faebcc;                       
+    background: #fcf8e3;
+}        
+        
+.x-infopanel-warning .x-infopanel-header .x-header-text
+{            
+    color: #8a6d3b;
+}       
+
+.x-infopanel-warning .x-infopanel-body
+{            
+    background: #fcf8e3;
+    color: #8a6d3b;
+}
