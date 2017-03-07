@@ -1,0 +1,62 @@
+/* UNLICENSED POPUP */
+
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:400,600,700);
+
+#unlicensed {
+	width: 340px;
+	height: 370px;
+	background: #f9f9f9;
+	border: 1px solid #cfcfcf;
+	padding: 25px;
+	font-family: 'Titillium Web', sans-serif;
+	line-height: 1.4;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+	   -webkit-box-shadow: 0px 0px 10px #d4d4d4;
+	      -moz-box-shadow: 0px 0px 10px #d4d4d4;
+	           box-shadow: 0px 0px 10px #d4d4d4;
+}
+
+.ul-title {
+	font-size: 24px;
+	font-weight: 700;
+	color: #242d35;
+	margin: 5px 0;
+}
+
+.ul-hr {
+	border: 0;
+	border-top: 1px solid #dfdfdf;
+	margin-bottom: 15px;
+}
+
+.ul-body {
+	font-size: 15px;
+	color: #828b93;
+}
+
+.ul-btn {
+	background: #4fada8;
+	font-size: 18px;
+	font-weight: 700;
+	color: #fff;
+	text-decoration: none;
+	display: block;
+	padding: 20px 0;
+	margin: 20px 0px;
+	-webkit-border-radius: 5px;
+	   -moz-border-radius: 5px;
+	        border-radius: 5px;
+}
+
+.ul-btn:hover {
+	background: #5ab8b3;
+}
+
+.ul-footer {
+	font-size: 16px;
+	color: #4fada8;
+	font-weight: 700;
+}

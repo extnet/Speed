@@ -1,0 +1,191 @@
+﻿.x-badge
+{
+    background:#fff;
+    border:1px solid #ccc;            
+    float:left;
+    position:absolute;            
+    z-index:9999;            
+    box-shadow:0px 1px 3px #ccc;
+    -moz-box-shadow:0px 1px 3px #ccc;
+    -webkit-box-shadow:0px 1px 3px #ccc;            
+}
+
+.x-badge-small
+{
+    min-width: 18px;    
+    min-height:18px;
+    border-radius: 9px;
+    -ms-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -o-border-radius: 9px;
+    -webkit-border-radius: 9px;
+}
+
+.x-badge-medium
+{
+    min-width: 30px;
+    min-height:30px;
+    border-radius: 15px;
+    -ms-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -o-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+.x-badge-large
+{
+    min-width: 48px;
+    min-height:48px;
+    border-radius: 24px;
+    -ms-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -o-border-radius: 24px;
+    -webkit-border-radius: 24px;
+}
+
+.x-badge .x-badge-wrap
+{            
+    z-index:99999;            
+    background-image: none; 
+    background-color: #f13c31;                                    
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f79690), to(#f13c31));
+    background-image: -webkit-linear-gradient(#f79690, #f13c31);
+    background-image: -moz-linear-gradient(100% 100% 90deg, #f13c31, #f79690);
+    background-image: -o-linear-gradient(#f79690, #f13c31);            
+    background-image: linear-gradient(100% 100% 90deg, #f13c31, #f79690);
+}
+
+.x-badge-primary .x-badge-wrap
+{            
+    background-color: #2D6CA2;                                    
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6D8FAA), to(#2D6CA2));
+    background-image: -webkit-linear-gradient(#6D8FAA, #2D6CA2);
+    background-image: -moz-linear-gradient(100% 100% 90deg, #2D6CA2, #6D8FAA);
+    background-image: -o-linear-gradient(#6D8FAA, #2D6CA2);            
+    background-image: linear-gradient(100% 100% 90deg, #2D6CA2, #6D8FAA);
+}
+
+.x-badge-danger .x-badge-wrap
+{            
+    background-color: #D9534F;                                    
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#E58F8E), to(#D9534F));
+    background-image: -webkit-linear-gradient(#E58F8E, #D9534F);
+    background-image: -moz-linear-gradient(100% 100% 90deg, #D9534F, #E58F8E);
+    background-image: -o-linear-gradient(#E58F8E, #D9534F);            
+    background-image: linear-gradient(100% 100% 90deg, #D9534F, #E58F8E);
+}
+
+.x-badge-info .x-badge-wrap
+{            
+    background-color: #2AABD2;                                    
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#84CCE0), to(#2AABD2));
+    background-image: -webkit-linear-gradient(#84CCE0, #2AABD2);
+    background-image: -moz-linear-gradient(100% 100% 90deg, #2AABD2, #84CCE0);
+    background-image: -o-linear-gradient(#84CCE0, #2AABD2);            
+    background-image: linear-gradient(100% 100% 90deg, #2AABD2, #84CCE0);
+}
+
+.x-badge-success .x-badge-wrap
+{            
+    background-color: #5CB85C;                                    
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9BC69B), to(#5CB85C));
+    background-image: -webkit-linear-gradient(#9BC69B, #5CB85C);
+    background-image: -moz-linear-gradient(100% 100% 90deg, #5CB85C, #9BC69B);
+    background-image: -o-linear-gradient(#9BC69B, #5CB85C);            
+    background-image: linear-gradient(100% 100% 90deg, #5CB85C, #9BC69B);
+}
+
+.x-badge-warning .x-badge-wrap
+{            
+    background-color: #F0AD4E;                                    
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FCD092), to(#F0AD4E));
+    background-image: -webkit-linear-gradient(#FCD092, #F0AD4E);
+    background-image: -moz-linear-gradient(100% 100% 90deg, #F0AD4E, #FCD092);
+    background-image: -o-linear-gradient(#FCD092, #F0AD4E);            
+    background-image: linear-gradient(100% 100% 90deg, #F0AD4E, #FCD092);
+}
+
+.x-badge-small .x-badge-wrap
+{
+    min-width: 16px;
+    height: 16px;
+    margin:1px;
+    border-radius: 8px;
+    -ms-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-border-radius: 8px;
+}
+
+.x-badge-medium .x-badge-wrap
+{
+    min-width: 28px;
+    height: 28px;
+    margin:1px;
+    border-radius: 14px;
+    -ms-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -o-border-radius: 14px;
+    -webkit-border-radius: 14px;
+}
+
+.x-badge-large .x-badge-wrap
+{
+    min-width: 46px;
+    height: 46px;
+    margin:1px;
+    border-radius: 23px;
+    -ms-border-radius: 23px;
+    -moz-border-radius: 23px;
+    -o-border-radius: 23px;
+    -webkit-border-radius: 23px;
+}
+
+.x-badge .x-badge-inner
+{
+    margin:0;
+    line-height: inherit;
+    color:#fff;            
+    text-align:center;    
+    z-index:999999;
+}
+
+.x-badge-small .x-badge-inner
+{
+    padding:0px 4px;
+    font-size: 11px;
+}
+
+.x-gecko .x-badge-small .x-badge-inner
+{
+    line-height:12px;
+    padding-top: 2px;
+}
+
+.x-badge-medium .x-badge-inner
+{
+    padding:5px 5px;
+    font-size: 16px;
+}        
+
+.x-webkit .x-badge-medium .x-badge-inner,
+.x-gecko .x-badge-medium .x-badge-inner
+{
+    padding:4px 5px;
+}
+
+.x-badge-large .x-badge-inner
+{
+    padding:14px 7px;
+    font-size: 30px;
+}
+
+.x-webkit .x-badge-large .x-badge-inner
+{
+    padding:12px 7px;
+}
+
+.x-gecko .x-badge-large .x-badge-inner
+{
+    padding:13px 7px;
+}

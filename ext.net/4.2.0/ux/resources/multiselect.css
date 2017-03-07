@@ -1,0 +1,10 @@
+.x-multiselect-with-checkbox .x-boundlist-item {
+    background-image: url(images/multiselect/unchecked.gif);
+    background-repeat: no-repeat;
+    background-position: 1px 1px;
+    padding-left: 18px;
+}
+ 
+.x-multiselect-with-checkbox .x-boundlist-selected {
+    background-image: url(images/multiselect/checked.gif);
+}

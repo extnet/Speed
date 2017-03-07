@@ -1,0 +1,218 @@
+.x-taglabel ul.x-taglabel-list {
+  height: auto;
+  min-height: 20px;
+  cursor: text;  
+  padding: 0px;
+  overflow: hidden;
+  margin-top: 0px;
+  margin-bottom : 0px;
+  margin-left: 0px;
+}
+
+/*.x-ie7m .x-taglabel ul.x-taglabel-list {
+  height: 20px;
+}*/
+
+.x-taglabel input {
+  border: 0px;
+  background: none; 
+  margin: 0px;
+  padding: 0px;
+}
+
+.x-taglabel-input, .x-taglabel-item {
+  float:left;
+  display: inline-block;
+  position: relative;  
+  zoom: 1;  
+}
+
+.x-ie7m .x-taglabel-input,.x-ie7m .x-taglabel-item {
+  float:left;
+  display: inline;
+  zoom: 1;  
+}
+
+.x-ie7m .x-taglabel {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.x-taglabel-item {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -khtml-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #8fafe0;
+  padding: 0px 1px 0px 5px;
+  margin: 1px 2px 1px 1px;
+  background-color: #dfe8f6;
+  cursor: default;
+  float:left;
+}
+
+.x-ie6 .x-taglabel-item-disabled {
+  filter: none;
+}
+
+.x-taglabel-item-disabled
+{
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+}
+
+.x-taglabel-item-icon
+{
+    padding-left : 25px;    
+    background-position: 5px 0px;
+}
+
+.x-taglabel-item.x-taglabel-item-selected {
+  background-color: #6892d4;
+  color: white;
+  border: 1px solid #0557be !important;
+}
+
+.x-taglabel-item.x-taglabel-item-over {
+  background-color: #b7cbeb;
+  border: 1px solid #6892d4;
+}
+
+.x-taglabel-stacked .x-taglabel-item,
+.x-taglabel-stacked .x-taglabel-input {
+  display: block;
+  float : none;
+}
+
+.x-taglabel-stacked ul.x-taglabel-list
+{
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.x-taglabel-item-text {
+  line-height: 16px;
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.x-taglabel-closable .x-taglabel-item-text { 
+  padding-right: 16px;
+}
+
+.x-taglabel-empty {
+  color: gray;
+  float:left;
+  padding: 0px 1px 0px 2px;
+  margin: 2px 1px 1px 0;
+}
+
+ .x-taglabel-item .x-taglabel-close-btn {
+  display: block;
+  cursor: pointer;
+  position: absolute;
+  font-size: 0;
+  line-height: 0;
+  background: no-repeat;
+  width: 11px;
+  height: 11px;
+  top: 3px;
+  right: 3px;
+  background-image: url(images/taglabel/close.png);
+}
+
+.x-taglabel-item-disabled .x-taglabel-close-btn {  
+  cursor: default;
+}
+
+.x-taglabel-item .x-taglabel-close-btn-over
+{
+    background-position: 0px -22px;
+}
+
+.x-tagcombo .x-form-trigger
+{
+    margin-top: 0px;
+}
+
+.x-tagcombo .x-form-field {
+  padding: 0px;
+}
+
+.x-ie7m .x-taglabel {
+  margin-top:-1px;
+  margin-bottom:0px;
+}
+
+.x-ie7m .x-taglabel input {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+.x-tagcombo.x-item-disabled .x-form-field,
+.x-tagcombo.x-item-disabled .x-form-trigger
+{
+    filter: inherit;
+    opacity: inherit;
+}
+
+.x-tagcombo.x-item-disabled .x-form-trigger-wrap
+{
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+    opacity: 0.3;
+}
+
+.x-tagcombo-stacked .x-field-toolbar-body .x-trigger-cell
+{
+    border-bottom:none;
+}
+.x-hide-selection .x-boundlist-selected
+{
+    display : none;
+}
+.x-taglabel-item {
+    padding: 3px 1px 2px 5px;
+}
+
+.x-tagcombo .x-taglabel-item {
+    padding: 0px 1px 0px 5px;
+}
+
+.x-taglabel-item.x-taglabel-closable
+{
+    padding: 3px 3px 2px 5px;
+}
+
+.x-tagcombo .x-taglabel-item.x-taglabel-closable
+{
+    padding: 0px 1px 0px 5px;
+}
+
+.x-tagcombo .x-taglabel-item.x-taglabel-closable.x-taglabel-item-icon
+{
+    padding: 0px 1px 0px 25px;
+}
+
+.x-taglabel-item .x-taglabel-close-btn
+{
+    top:5px;
+}
+
+.x-tagcombo .x-taglabel-item .x-taglabel-close-btn
+{
+    top:3px;
+}
+
+.x-taglabel-item-icon {
+    padding-left: 25px;
+    background-position: 5px center;
+}
+
+.x-theme-neptune .x-taglabel ul.x-taglabel-list,
+.x-theme-neptunetouch .x-taglabel ul.x-taglabel-list,
+.x-theme-gray .x-form-text-wrap-toolbar .x-taglabel-list,
+.x-theme-blue .x-form-text-wrap-toolbar .x-taglabel-list {
+    background-color: white;
+}

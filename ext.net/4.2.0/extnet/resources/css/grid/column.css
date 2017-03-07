@@ -1,0 +1,11 @@
+﻿.x-grid-cell-wrap .x-grid-cell-inner {
+    white-space: normal;
+}
+.x-column-header
+{
+    background-repeat: repeat;
+}
+
+.x-grid-header-widgets .x-form-display-field-default{
+    margin-top: 0px;
+}
