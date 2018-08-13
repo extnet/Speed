@@ -1,0 +1,36 @@
+.x-gauge svg {
+    display: block;
+}
+
+.x-gauge-text {
+    position: absolute;
+    text-align: center;
+}
+
+.x-gauge svg {
+    display: block;
+}
+
+.x-gauge .x-gauge-track {
+    fill: #e0e8f3;
+    fill-opacity: 1;
+    stroke: #c0d4ed;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
+
+.x-gauge .x-gauge-value {
+    fill: #73a3e0;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
+
+.x-gauge .x-gauge-needle {
+    fill: #326aaf;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
